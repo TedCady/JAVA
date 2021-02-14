@@ -1,0 +1,43 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.container{
+	margin 100px;
+	width: fit-content;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	vertical-align: middle;
+	padding: 20px;
+	border: black solid 2px;
+	flex-direction: column;
+}
+
+form{
+	display: grid;
+}
+
+form label{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	
+}
+
+form button{
+	width: 30%;
+}
+
+table{
+	display: flex;
+	flex-direction: column;
+}
