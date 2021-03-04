@@ -1,0 +1,33 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	justify-content: center;
+	padding: 2%;
+
+}
+.container{
+	width: 85%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+h2{
+	margin-bottom: 20px;
+}
+form{
+	display: flex;
+	flex-direction: column;
+}
+textArea{
+	height: 20px;
+}
+.forms{
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+}
